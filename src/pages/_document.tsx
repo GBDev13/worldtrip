@@ -8,6 +8,9 @@ export default class MyDocument extends Document {
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
           
+          <link rel="shortcut icon" href="favicon.png" type="image/png"/>
+          <link rel="apple-touch-icon" href="favicon.png"></link>
+
           <meta property="og:title" content="WorldTrip" />
           <meta property="og:locale" content="pt_BR" />
           <meta property="og:type" content="website" />
@@ -18,7 +21,7 @@ export default class MyDocument extends Document {
           <meta property="og:image:width" content="1200" />
           <meta property="og:image:height" content="630" />
 
-          <meta name="twitter:title" content="Move.it - O pomodoro Gamificado!" />
+          <meta name="twitter:title" content="WorldTrip" />
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:image" content="/ogimage.png" />
           <meta name="twitter:image:src" content="/ogimage.png" />
