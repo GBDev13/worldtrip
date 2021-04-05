@@ -6,7 +6,7 @@
 
 ## 📚 Informações sobre o projeto
 
-* Esse projeto foi desenvolvido durante um dos desafios dos capitulos do Ignite da Rocketseat! A ideia era desenvolver um site do zero seguindo o layout do Figma usando apenas o sistema do Chakra UI. Nesse projeto eu acrescentei alguns detalhes por conta própria pos curti bastante mexer nele!
+* Esse projeto foi desenvolvido durante um dos desafios dos capitulos do Ignite da Rocketseat! A ideia era desenvolver um site do zero seguindo o layout do Figma usando apenas o sistema do Chakra UI. Nesse projeto eu acrescentei alguns detalhes por conta própria, já que curti bastante trabalhar nele!
 
 &nbsp;
 
