@@ -9,6 +9,7 @@ import Header from "../../components/Header";
 import { getPrismicClient } from "../../services/prismic";
 import Prismic from '@prismicio/client';
 import { useRouter } from "next/dist/client/router";
+import Loading from "../../components/Loading";
 
 export interface ContinentProps {
   continent: {
@@ -32,7 +33,7 @@ export interface ContinentProps {
 export default function Continent({continent}: ContinentProps) {
   const router = useRouter();
   if (router.isFallback) {
-    return <h1>Carregando...</h1>;
+    return <Loading />
   }
 
   return (
@@ -41,6 +42,7 @@ export default function Continent({continent}: ContinentProps) {
         <title>WorldTrip - {continent.title}</title>
 
         <meta property="og:title" content={`WorldTrip ${continent.title}`} />
+        <meta property="og:description" content={continent.description} />
         <meta name="twitter:title" content={`WorldTrip ${continent.title}`} />
 
         <meta name="twitter:image" content={continent.banner_image} />
